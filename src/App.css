@@ -1,10 +1,20 @@
 .App {
   text-align: center;
 }
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+.form
+{
+  align-items: center;
+  justify-content: center;
+}
+.bg{
+    background-image: url('./Background.jpg');
+      background-repeat: no-repeat;
+      width: auto;
+      height: 800px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -26,6 +36,57 @@
 
 .App-link {
   color: #61dafb;
+}
+.navpos{
+align-items:flex-end;
+justify-content: end;
+}
+
+.buttonClass{
+  margin:0;
+  padding:0;
+  justify-content: right;
+  align-items: right;
+  display: flex;
+  position: relative;
+  margin:auto
+}
+form{
+  align-items: center;
+  justify-content: center;
+
+}
+.balance{
+  margin: auto;
+  padding-top: 10px;
+  text-transform: capitalize;
+}
+.btnBalance{
+width: 300px;
+padding-top: 10px;
+margin-top: 10px;
+margin-bottom: 10px;
+font-weight: bold;
+color: white;
+text-transform: capitalize;
+}
+.title{
+  font-weight: bold;
+    color: white;
+    text-transform: capitalize;
+}
+#connect{
+  margin-top: 10px;
+  padding: 10px;
+  margin-right: 20px;
+  background-color:lightgreen;
+  text-decoration: aliceblue;
+  border-radius: 5px;
+  border: none;
+  text-transform: capitalize;
+  color:beige;
+  font-weight: bold;
+
 }
 
 @keyframes App-logo-spin {
