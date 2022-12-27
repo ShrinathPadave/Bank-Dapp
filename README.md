@@ -1,13 +1,17 @@
-# Sample Hardhat Project
+# Full stack Blockchain Dapp
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+Full stack Decentralized Application to automate general operations like Checking the Balance of an account, Deposit funds, Withdraw funds, and Transfer funds using solidity, react, hardhat and ethers.js
 
 Try running some of the following tasks:
 
 ```shell
-npx hardhat help
+npm install
+npm install hardhat
+npm install ethers
+npm install chai
+npm install @nomicfoundation/hardhat-toolbox
 npx hardhat test
-REPORT_GAS=true npx hardhat test
 npx hardhat node
-npx hardhat run scripts/deploy.js
+npx hardhat run scripts/bank-script.js
+npm start
 ```
